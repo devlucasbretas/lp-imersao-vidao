@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    padding: 0px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(33, 33, 173);
+}
+
+header h2 {
+    font-size: 25pt;
+}
+
+.home {
+    background: url(assets/Banner-celular.png);
+    background-size: cover;
+    width: 100%;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.instruct1 h3{
+    width: 800px;
+    font-size: 28pt;
+}
+
+.foot-info {
+    margin: 20px auto;
+    width: 600px;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.instruct2 h3 {
+    width: 800px;
+    font-size: 22pt;
+    text-transform: uppercase;
+}
+
+h3,p {
+    text-align: center;
+}
+
+.btn {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 14pt;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #d8ad29;
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8ad29;
+}
+
+header h2 {
+    color: whitesmoke;
+    font-size: 16pt;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+footer p {
+    font-size: 10pt;
+    color: whitesmoke;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+
+
+    header {
+        padding: 10px;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .text2 {
+        text-align: left;
+        font-size: 16pt;
+        margin-bottom: 50px;
+    }
+
+    .home {
+        padding: 30px;
+        background: url(assets/Banner-celular.png);
+        height: max-content;
+    }
+
+    .home-container{
+        justify-content: center;
+        width: 280px;
+        margin: auto;
+    }
+
+    header h2 {
+        font-size: 10pt;
+    }
+
+    .instruct1 h3 {
+        margin: auto;
+        width: 290px;
+        font-size: 14pt;
+    }
+
+    .instruct2 h3 {
+        margin-top: -50px;
+        width: 290px;
+        font-size: 14pt;
+    }
+
+    .foot-info{
+        width: 280px;
+        font-size: 11pt;
+    }
+
+    .btn {
+        margin: 20px;
+        width: 300px;
+        font-size: 6pt;
+    }
+
+    iframe {
+        margin-left: -10px;
+        margin-top: -70px;
+        text-align: center;
+        width: 300px;
+    }
+
+    h3 {
+        font-size: 16pt;
+        width: 280px;
+    }
+
+
+    footer {
+        padding: 20px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+}
